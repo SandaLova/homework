@@ -1,0 +1,35 @@
+div {
+    color: #7ce4e4;
+}
+
+.block {
+    color: blue;
+}
+
+#id-block {
+    color: chocolate;
+}
+
+[data-example] {
+    color: darkmagenta;
+}
+
+[data-example="value2"] {
+    color: chartreuse;
+}
+
+.block1, .block3, .block5 {
+    color: cornflowerblue;
+}
+
+span.blue-block {
+    color: cadetblue;
+}
+
+div .orange {
+    color: khaki;
+}
+
+.parent>.child {
+    color: black;
+}
