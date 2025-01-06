@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.bigblock {
+    outline: 1px solid #000;
+    background: #dfd9ed;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: auto;
+}
+
+.block {
+    background: #cbb49b;
+    width: 280px;
+    padding: 0px 10px 15px;
+    margin: 5px;
+    border: 0.5px solid #5c5b5b;
+    display: inline-block;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0px 0px 15px -1px rgba(66, 68, 90, 1);
+    -moz-box-shadow: inset 0px 0px 15px -1px rgba(66, 68, 90, 1);
+    box-shadow: inset 0px 0px 15px -1px rgba(66, 68, 90, 1);
+}
