@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form name="feedback">
+        <div class="container">
+            <h3 class="hero-title">
+                Форма обратной связи
+            </h3>
+            <p class="hero-text">
+                Напишите нам пару строк и мы свяжемся с вами
+            </p>
+            Имя
+            <input type="text" required>
+            <br>
+            Телефон
+            <input type="tel" required>
+            <br>
+            Email
+            <input type="email" required>
+            <br>
+            Тема
+            <select name="">
+                <option value="">- Выберите -</option>
+                <option value="var1">Жалоба</option>
+                <option value="var2">Предложение</option>
+                <option value="var3">Отзыв</option>
+            </select>
+            <br>
+            Сообщение
+            <textarea cols="50" rows="3"></textarea>
+            <br>
+            <input type="checkbox">
+            Согласен на обработку персональных данных
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+</body>
+
+</html>

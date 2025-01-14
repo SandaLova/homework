@@ -1,0 +1,16 @@
+.container {
+    display: inline-block;
+    background: #d4c1c1;
+    border: 1px double #000;
+}
+
+.hero-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.hero-text {
+    color: #3d3d3d;
+    text-align: center;
+}
