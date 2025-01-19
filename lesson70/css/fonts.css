@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Marck Script";
+    src: 
+    local('Marck Script'), 
+    local('MarckScript-Regular'),
+        url('/fonts/MarckScript-Regular.woff2') format('woff2'),
+        url('/fonts/MarckScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
