@@ -1,0 +1,33 @@
+body {
+    background: #000;
+}
+
+.text {
+    font-family: "Lato", "Arial", serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+
+.block {
+    background: #dcb6b6;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+    z-index: -1;
+}
+
+.circle {
+    background: #b31313;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+}
