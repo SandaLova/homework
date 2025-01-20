@@ -25,6 +25,7 @@ body {
 
 .box span {
     opacity: 0;
+    transition: opacity .3s 1s;
 }
 
 .box__scale {
@@ -34,14 +35,13 @@ body {
     right: 600px;
     height: 30px;
     background: #fff;
+    transition: right 1s;
 }
 
 .box:hover .box__scale {
     right: -300px;
-    transition: right 1s;
 }
 
 .box:hover span {
     opacity: 1;
-    transition: opacity .3s 1s;
 }
