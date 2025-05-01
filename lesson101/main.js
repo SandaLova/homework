@@ -39,3 +39,22 @@ console.log(calculate(3,8,'sum'))
 console.log(calculate(3,8,'subtract'))
 console.log(calculate(3,8,'multiply'))
 console.log(calculate(3,8,'divide'))
+
+// ---------четвертое задание---------//
+
+const users = [
+  {name: 'Maria', isAdmin: false },
+  {name: 'Oleg', isAdmin: false },
+  {name: 'Stefan', isAdmin: true },
+  {name: 'Polina', isAdmin: false },
+]
+let simpleUsersCount = 0
+
+for (let i = 0; i<users.length; i++)
+{
+  if (!users[i].isAdmin) {
+    simpleUsersCount++
+  }
+}
+
+console.log('Количество простых пользователей:', simpleUsersCount)
