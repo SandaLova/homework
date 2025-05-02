@@ -27,3 +27,15 @@ openButtons.forEach(button => button.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
     modalWindow.style.display = 'none'
 })
+
+window.addEventListener('click', event => {
+    if (event.target === modalWindow) {
+        modalWindow.style.display = 'none'
+    }
+})
+
+document.addEventListener('keydown', event => {
+    if (event.code === 'Escape') {
+        modalWindow.style.display = 'none'
+    }
+})
