@@ -106,6 +106,16 @@ img {
   color: #2c332f;
 }
 
+.phone,
+.footer__link {
+  transition: color 0.4s;
+}
+
+.phone:hover,
+.footer__link:hover {
+  color: #3596ed;
+}
+
 /* HERO */
 .hero,
 .faq {
@@ -174,6 +184,11 @@ img {
   color: #fff;
   margin-top: auto;
   display: block;
+  transition: background-color 0.4s;
+}
+
+.hero__button:hover {
+  background-color: #2d88da;
 }
 
 .hero__button:active {
@@ -239,6 +254,10 @@ img {
   height: 100%;
 }
 
+.news__link:hover .news__more::after {
+  transform: translateY(-50%) translateX(5px);
+}
+
 .news__image {
   width: 100%;
 }
@@ -282,6 +301,7 @@ img {
   height: 8px;
   top: 50%;
   transform: translateY(-50%);
+  transition: transform 0.4s;
 }
 
 /* FAQ */
@@ -334,6 +354,8 @@ img {
   padding: 20px 49px 20px 20px;
   position: relative;
   list-style: none;
+  cursor: pointer;
+  transition: color 0.2s;
 }
 
 .faq__question::after {
@@ -345,6 +367,10 @@ img {
   top: 50%;
   right: 20px;
   transform: translateY(-50%);
+}
+
+.faq__question:hover {
+  color: #3596ed;
 }
 
 .faq__answer {
@@ -395,9 +421,6 @@ img {
 @media (max-width: 1046px) {
   .hero::after {
     display: none;
-    .news__list {
-      flex-wrap: wrap;
-    }
   }
 
   .hero__title {
@@ -446,11 +469,14 @@ img {
   }
 
   .faq__content {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .faq__img {
-    display: none;
+    width: 100%;
+    max-width: 492px;
+    height: auto;
+    align-self: center;
   }
 }
 
@@ -492,6 +518,10 @@ img {
 }
 
 @media (max-width: 480px) {
+  .header-contacts__text {
+    text-align: right;
+  }
+
   .hero__caption {
     width: 130px;
     padding: 6px;
@@ -500,10 +530,6 @@ img {
 
   .faq__question {
     font-size: 20px;
-  }
-
-  .header-contacts__text {
-    display: none;
   }
 
   .header__container {
